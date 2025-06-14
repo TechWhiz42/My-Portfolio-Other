@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>College Coding Event Registration</title>
+  <link rel="stylesheet" href="regForm.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>College Coding Event Registration</h1>
+
+    <div class="event-details">
+      <strong>CodeFest 2025</strong><br>
+      <p><strong>Date:</strong> July 15, 2025 |
+        <strong>Time:</strong> 9:00 AM - 5:00 PM<br>
+        <strong>Venue:</strong> Computer Science Building, Room 101
+      </p>
+    </div>
+
+    <form>
+      <label>Full Name <span class="required">*</span></label>
+      <input type="text" placeholder="Enter your full name" required>
+
+      <label>Email Address <span class="required">*</span></label>
+      <input type="email" placeholder="Enter your email" required>
+
+      <label>Phone Number <span class="required">*</span></label>
+      <input type="tel" placeholder="Enter your phone number" required>
+
+      <label>College/University</label>
+      <input type="text" placeholder="Enter your college name">
+
+      <label>Year of Study <span class="required">*</span></label>
+      <select required>
+        <option>Select Year</option>
+        <option>1st Year</option>
+        <option>2nd Year</option>
+        <option>3rd Year</option>
+        <option>4th Year</option>
+      </select>
+
+      <label>Programming Experience <span class="required">*</span></label>
+      <div class="radio-group">
+        <label><input type="radio" name="experience" required> Beginner</label>
+        <label><input type="radio" name="experience"> Intermediate</label>
+        <label><input type="radio" name="experience"> Advanced</label>
+      </div>
+
+      <label>Programming Languages You Know (Select all that apply)</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox"> Python</label>
+        <label><input type="checkbox"> C</label>
+        <label><input type="checkbox"> Java</label>
+        <label><input type="checkbox"> JavaScript</label>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
